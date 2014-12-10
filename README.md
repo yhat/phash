@@ -2,6 +2,8 @@
 
 Simple password hashing in Go.
 
+Note: If you have the choice, just use [bcrypt](https://godoc.org/golang.org/x/crypto/bcrypt).
+
 ```go
 package main
 
