@@ -2,6 +2,8 @@
 
 Simple password hashing in Go.
 
+[![GoDoc](https://godoc.org/github.com/yhat/phash?status.svg)](https://godoc.org/github.com/yhat/phash)
+
 Note: If you have the choice, just use [bcrypt](https://godoc.org/golang.org/x/crypto/bcrypt).
 
 ```go
