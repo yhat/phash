@@ -11,8 +11,8 @@ import (
 	_ "crypto/sha256"
 	_ "crypto/sha512"
 
-	_ "code.google.com/p/go.crypto/md4"
-	_ "code.google.com/p/go.crypto/ripemd160"
+	_ "golang.org/x/crypto/md4"
+	_ "golang.org/x/crypto/ripemd160"
 )
 
 func main() {

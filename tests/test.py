@@ -12,8 +12,8 @@ with open("hashes.txt", "r") as f:
 
 print "[+] Downloading and compiling test dependencies"
 sp.check_output(["npm", "install", "password-hash"], stderr=sp.STDOUT)
-sp.check_output(["go", "get", "code.google.com/p/go.crypto/ripemd160"])
-sp.check_output(["go", "get", "code.google.com/p/go.crypto/md4"])
+sp.check_output(["go", "get", "golang.org/x/crypto/ripemd160"])
+sp.check_output(["go", "get", "golang.org/x/crypto/md4"])
 sp.check_output(["go", "build", "generate.go"])
 sp.check_output(["go", "build", "verify.go"])
 
